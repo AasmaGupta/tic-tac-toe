@@ -1,0 +1,104 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+
+body{
+    background-color: #F4B860;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 65vmin;
+    width: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box{
+    height:20vmin;
+    width: 20vmin;
+    background-color: #C83E4D;
+    box-shadow: 100ch;
+    border-radius: 1vmin;
+    border: none;
+    box-shadow: 0 0 1rem rgb(151, 119, 93);
+    font-size: 14vmin;
+    color: #25283D;
+}
+
+#resbtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #4A5859;
+    color: #F4D6CC;
+    border-radius: 1rem;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #4A5859;
+    color: #F4D6CC;
+    border-radius: 1rem;
+}
+
+#msg{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #d8cbcbca;
+    color: #ba38389e;
+    border-radius: 1rem;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.hide{
+    display: none;
+}
+
+.shade{
+    color: rgb(220, 198, 198);
+}
+
+body {
+    background-color: #F4B860;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #C83E4D;
+    text-align: center;
+    padding: 1rem 2rem;
+    border: 3px solid #C83E4D;
+    border-radius: 1rem;
+    box-shadow: 0 0 12px rgba(200, 62, 77, 0.3);
+    margin: 2rem auto;
+    width: fit-content;
+  }
+  
+  button {
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* When the button is clicked */
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
